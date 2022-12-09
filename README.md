@@ -1,5 +1,5 @@
 # Assingment 1: Human
-<hr>
+
 Let's get our feet wet with some OOP practice in C#! This first assignment shouldn't take us too much effort, but that's ok since at this point we should be feeling pretty comfortable working with Classes and Objects.
 
 Build a new .NET Project for this assignment as we will be revisiting in a later assignment.
