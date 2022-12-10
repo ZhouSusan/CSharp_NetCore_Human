@@ -29,9 +29,9 @@ namespace Human
             base.Attack(obj);
             
             Human humanTarget = (Human)obj;
-            Wizard wizardTarget = (Wizard)obj;
-            Ninja ninjaTarget = (Ninja)obj;
-            Samurai samuraiTarget = (Samurai)obj;
+            //Wizard wizardTarget = (Wizard)obj;
+            //Ninja ninjaTarget = (Ninja)obj;
+            //Samurai samuraiTarget = (Samurai)obj;
 
             if (humanTarget != null)
             {
@@ -42,7 +42,7 @@ namespace Human
                 return humanTarget.Health;
             }
 
-            if (wizardTarget != null)
+            /*if (wizardTarget != null)
             {
                 if (wizardTarget.Health < 50)
                 {
@@ -67,7 +67,7 @@ namespace Human
                     samuraiTarget.Health = 0;
                 }
                 return samuraiTarget.Health;
-            }
+            }*/
 
             return 0;
         }
@@ -77,7 +77,7 @@ namespace Human
             return this.Health = 200;
         }
 
-        static void how_many()
+        public static void how_many()
         {
             Console.WriteLine($"There are {Samurai.Count} samurais on the battle field");
         }

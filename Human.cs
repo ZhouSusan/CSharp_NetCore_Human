@@ -19,7 +19,7 @@ namespace Human
             this.Name = name;
             this.Strength = 3;
             this.Intelligence = 3;
-            this.Health = 3;
+            this.Dexterity = 3;
             this.Health = 100;
         }
 

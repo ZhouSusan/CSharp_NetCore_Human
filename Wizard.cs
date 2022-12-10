@@ -26,9 +26,11 @@ namespace Human
             int dmg = rand.Next(20, 51);
 
             Human humanEnemy = (Human)obj;
+            /*
             Wizard wizardEnemy = (Wizard)obj;
             Ninja ninjaEnemy = (Ninja)obj;
             Samurai samuraiEnemy = (Samurai)obj;
+            */
 
             if(humanEnemy != null)
             {
@@ -36,6 +38,7 @@ namespace Human
                 return humanEnemy.Health;
             }
 
+            /*
             if (wizardEnemy != null)
             {
                 wizardEnemy.Health -= dmg;
@@ -53,6 +56,7 @@ namespace Human
                 samuraiEnemy.Health -= dmg;
                 return samuraiEnemy.Health;
             }
+            */
 
             return 0;
         } 
