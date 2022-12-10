@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Human
 {
-    internal class Ninja : Human
+    class Ninja : Human
     {
 
         public Ninja(string name) : base(name) {

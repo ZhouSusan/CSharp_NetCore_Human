@@ -8,15 +8,26 @@ namespace Human
 {
     class Samurai : Human
     {
+        private static int count = 0;
+        public static int Count
+        {
+            get
+            {
+                return count;
+            }
+            set {}
+        }
+
         public Samurai(string name) : base(name)
         {
             this.Health = 200;
+            Count += 1; 
         }
 
         public int death_blow(Object obj) 
         {
             base.Attack(obj);
-
+            
             Human humanTarget = (Human)obj;
             Wizard wizardTarget = (Wizard)obj;
             Ninja ninjaTarget = (Ninja)obj;
@@ -64,6 +75,11 @@ namespace Human
         public int meditiate()
         {
             return this.Health = 200;
+        }
+
+        static void how_many()
+        {
+            Console.WriteLine($"There are {Samurai.Count} samurais on the battle field");
         }
     }
 }
