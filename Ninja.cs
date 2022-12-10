@@ -6,7 +6,22 @@ using System.Threading.Tasks;
 
 namespace Human
 {
-    internal class Class1
+    internal class Ninja : Human
     {
+
+        public Ninja(string name) : base(name) {
+            this.Dexterity = 175;
+        }
+
+        public int steal(Object obj)
+        {
+            base.Attack(obj);
+            return this.Health + 10;
+        }
+
+        public int get_away()
+        {
+            return this.Health -= 15;
+        }
     }
 }
