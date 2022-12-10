@@ -29,10 +29,7 @@ namespace Human
             base.Attack(obj);
             
             Human humanTarget = (Human)obj;
-            //Wizard wizardTarget = (Wizard)obj;
-            //Ninja ninjaTarget = (Ninja)obj;
-            //Samurai samuraiTarget = (Samurai)obj;
-
+         
             if (humanTarget != null)
             {
                 if (humanTarget.Health < 50)
@@ -42,33 +39,7 @@ namespace Human
                 return humanTarget.Health;
             }
 
-            /*if (wizardTarget != null)
-            {
-                if (wizardTarget.Health < 50)
-                {
-                    wizardTarget.Health = 0;
-                }
-                return wizardTarget.Health;
-            }
-
-            if (ninjaTarget != null)
-            {
-                if (ninjaTarget.Health < 50)
-                {
-                    ninjaTarget.Health = 0;
-                }
-                return ninjaTarget.Health;
-            }
-
-            if (samuraiTarget != null)
-            {
-                if (samuraiTarget.Health < 50)
-                {
-                    samuraiTarget.Health = 0;
-                }
-                return samuraiTarget.Health;
-            }*/
-
+          
             return 0;
         }
 
