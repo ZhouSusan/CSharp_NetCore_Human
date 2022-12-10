@@ -1,4 +1,8 @@
-# Assignment Part 1: Human
+# Human Game
+## Summary
+C# learning repo divided into two parts. First part deals with object instantiation, oop principles at work, and an optional bonus challenge. Second part works with changing state, casting objects, method parameters, and method calling. Also includes a bonus challenge.
+
+## Assignment Part 1: Human
 
 Let's get our feet wet with some OOP practice in C#! This first assignment shouldn't take us too much effort, but that's ok since at this point we should be feeling pretty comfortable working with Classes and Objects.
 
@@ -16,7 +20,7 @@ Now add a new method called attack, which when invoked, should attack another Hu
 
 (Optional) Change the last function to accept any object and just make sure it is of type Human before applying damage. Hint you may need to refer back to the Boxing/Unboxing tab!
 
-# Assignment Part 2: Wizard, Ninja, Samurai
+## Assignment Part 2: Wizard, Ninja, Samurai classes
 We are going to be revisiting our Human class and building out three new classes that all inherit from it.
 
 Create a class for a Ninja, a Wizard, and a Samurai
